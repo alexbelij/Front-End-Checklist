@@ -1,15 +1,3 @@
-<h1 align="center">
-<br>
-  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/data/images/logo-front-end-checklist.jpg" alt="Front-End Checklist" width="130">
-  <br>
-    <br>
-  Front-End Checklist
-  <br>
-</h1>
-
----
-<h3 align="center">🚨 Currently working on a V2 of frontendchecklist.io,<br>feel free to <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions">discuss</a> any feature you would like to see in the next version</h3>
-
 ---
 
 <h4 align="center">The Front-End Checklist is an exhaustive list of all elements you need to have / to test before launching your website / HTML page to production.</h4>
@@ -101,8 +89,8 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 > * 🛠 [SERP Snippet Generator](https://www.sistrix.com/serp-snippet-generator/)
 
-* [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
-
+* [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters, but should be above 120. characters.
+> 📖 [Web.dev - Document has a meta description](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
 ```html
 <!-- Meta Description -->
 <meta name="description" content="Description of the page less than 150 characters">
